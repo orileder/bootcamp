@@ -1,0 +1,16 @@
+#firsthelloworld {
+    border: 2px solid;
+    border-color: red;
+    font-size: larger;
+    border-radius: 20px;
+}
+#secondhelloworld {
+    font-weight: bold;
+    font-style: italic;
+}
+#thirdhelloworld {
+    text-shadow: 2px;
+    background-color: black;
+    font-family: monospace;
+    color: white;
+}

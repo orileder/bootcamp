@@ -1,0 +1,113 @@
+html {
+    background-color: darkblue;
+}
+* {
+    box-sizing: border-box;
+    color: aliceblue;
+}
+#gendiv {
+    height:500px; 
+    width:300px;
+    margin: 60px auto; 
+    position: relative;
+    
+}
+#h1 {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+}
+#h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+#h3 {
+    position: absolute;
+    top: 56%;
+    left: 45%;
+}
+#h4 {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+button {
+    margin-bottom: 80px;
+    border: 0px;
+}
+.small {
+    float: right;
+    margin-left: 80px;
+    padding: 5px;
+}
+.big {
+    margin-right: 80px;
+    padding: 12px;
+}
+.round {
+    border-radius: 20px;
+}
+.empty {
+    background-color: transparent;
+}
+#button1 {
+    background-color: lightskyblue;
+}
+#button1:hover {
+    background-color: rgb(115, 174, 211);
+    color: rgb(222, 229, 236);
+}
+#button2 {
+    background-color: rgb(147, 147, 49);
+}
+#button2:hover {
+    background-color: rgb(126, 126, 49);
+    color: rgb(222, 229, 236);
+}
+#button3 {
+    background-color: green;
+}
+#button3:hover {
+    background-color: rgb(17, 116, 17);
+    color: rgb(222, 229, 236);
+}
+#button4 {
+    background-color: palevioletred;
+}
+#button4:hover {
+    background-color: rgb(189, 108, 135);
+    color: rgb(222, 229, 236);
+}
+#button5 {
+    border: 1px solid red;
+}
+#button5:hover {
+    background-color:red;
+    color: rgb(222, 229, 236);
+}
+#button6 {
+    border: 1px solid rgb(199, 52, 147);
+}
+#button6:hover {
+    background-color: rgb(199, 52, 147);
+    color: rgb(222, 229, 236);
+}
+#button7 {
+    border: 1px solid rgb(120, 120, 26);
+}
+#button7:hover {
+    background-color: rgb(120, 120, 26);
+    color: rgb(222, 229, 236);
+}
+#button8 {
+    border: 1px solid rgb(15, 106, 15);
+}
+#button8:hover {
+    background-color: rgb(15, 106, 15);
+    color: rgb(222, 229, 236);
+}
+#lifting {
+    position: absolute;
+    top: 10%
+}

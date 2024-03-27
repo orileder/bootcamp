@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.greeting-card {
+    border: solid black 2px;
+    box-shadow: 6px 5px 20px 2px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+.navbar ul {
+    list-style-type: none;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 70%;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbut a {
+    text-decoration: none;
+}
+
+.navbut {
+    padding: 10px 30px 10px 30px;
+}
+
+.quote {
+    border: 2px solid black;
+    padding: 20px; 
+    background-color: lightgray; 
+    text-align: center; 
+    max-width: 70%; 
+}
