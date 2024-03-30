@@ -1,0 +1,34 @@
+* {
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+#navbar {
+    width: 100%;
+    height: fit-content;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+}
+h6 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: navy;
+}
+#box2 button {
+ margin: 0px 15px;
+}
+@media(max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+    }
+    #box2 {
+        display: flex;
+        flex-direction: column;
+    }
+    #box2 button {
+        margin: 10px 0px
+    }
+}

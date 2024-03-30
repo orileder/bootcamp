@@ -1,0 +1,28 @@
+* {
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+#box1 {
+    background-color: darkgreen;
+    height: 50px;
+    width: 70px;
+}
+#box2 {
+    background-color: darkblue;
+    height: 50px;
+    width: 70px;
+}
+#box3 {
+    background-color: darkred;
+    height: 50px;
+    width: 70px;
+}
+#flexdiv {
+    background-color: blanchedalmond;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
