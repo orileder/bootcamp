@@ -1,0 +1,25 @@
+p {
+    margin-top: 100px;
+}
+a[data-tooltip] {
+    position: relative; 
+}
+
+
+a[data-tooltip]::after {
+    content: attr(data-tooltip); 
+    position: absolute;
+    background-color: black;
+    color: white; 
+    padding: 4px;
+    border-radius: 4px; 
+    z-index: 10; 
+    visibility: hidden; 
+    bottom: 100%; 
+    left: 40%;
+    white-space: nowrap;
+}
+
+a[data-tooltip]:hover::after {
+    visibility: visible;
+}
