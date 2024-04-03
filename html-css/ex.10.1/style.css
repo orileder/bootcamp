@@ -1,0 +1,36 @@
+* {
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+header {
+    width: 60vw;
+    margin: 4rem auto;
+}
+@media (min-width: 30em) {
+    html {
+      font-size: 75%;
+    }
+  }
+  
+  @media (min-width: 40em) {
+    html {
+      font-size: 90%;
+    }
+  }
+  
+  @media (min-width: 50em) {
+    html {
+      font-size: 105%;
+    }
+  }
+  
+  @media (min-width: 60em) {
+    html {
+      font-size: 120%;
+    }
+  }

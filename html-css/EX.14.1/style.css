@@ -1,0 +1,21 @@
+.box {
+    background-color: blue;
+    margin: 200px auto;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.box::after {
+    content: '';
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left:300px;
+    top:0;
+    transition:0.4s;
+}
+.box:hover:after {
+    left: 0px;
+}

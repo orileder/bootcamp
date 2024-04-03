@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: wheat;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    flex-wrap: wrap;
+    width: 600px;
+
+}
+.btn {
+    background-color: transparent;
+    border: 2px solid black;
+    margin: 50px 40px;
+    padding: 10px;
+}
+.btn1 {
+    background-color: transparent;
+    border: 2px solid black;
+    margin: 50px 40px;
+    padding: 10px;
+}
+.translateY {
+    position: relative;
+    overflow: hidden;
+}
+.translateY::after {
+    content: 'cool!';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: -100%;
+    background-color: red;
+    transition: 0.4s;
+}
+.translateY:hover:after {
+    top: 0%;
+}
+.translateX {
+    position: relative;
+    overflow: hidden;
+}
+.translateX::after {
+    content: '';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    top: 0%;
+    background-color: blue;
+    transition: 0.4s;
+    z-index: -1;
+}
+.translateX:hover:after {
+    left: 0%;
+}
+.rotate {
+    position: relative;
+    overflow: hidden;
+}
+.rotate::after {
+    content: '';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    top: 0%;
+    background-color: yellow;
+    transition: 0.4s;
+    z-index: -1;
+}
+.rotate:hover:after {
+    transform: rotate(-180deg)
+    translateX(-100%)
+}
+.skew {
+    position: relative;
+    overflow: hidden;
+}
+.skew:hover {
+    transform: skewY(-10deg);
+}
+.skew::after {
+    content: '';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 0%;
+    width: 0%;
+    left: 50%;
+    top: 50%;
+    background-color: fuchsia;
+    transition: all 0.4s;
+    z-index: -1;
+}
+.skew:hover:after {
+    transform:skewX(360deg);
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+}
+.scale {
+    position: relative;
+    overflow: hidden;
+}
+.scale::after {
+    content: 'scale';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0%;
+    top: 0%;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+    z-index: 1;
+    transform: scale(4);
+    opacity: 0;
+}
+.scale:hover:after {
+    transform: scale(1);
+    opacity: 1;
+}

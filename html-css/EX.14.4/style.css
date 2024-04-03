@@ -1,0 +1,167 @@
+body {
+    background-color: navy;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+   
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+}
+.circle {
+    height:15px;
+    width: 15px; 
+    border-radius: 50%;
+    margin: 0px 5px;
+    background-color: gray;
+}
+.one {
+    border: 5px solid gray;
+    border-radius: 50%;
+    border-top: 5px solid orange;
+    animation: rotate-loader 2s linear infinite;
+}
+@keyframes rotate-loader {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.two {
+    border-radius: 50%;
+    border: 5px solid navy;
+    animation: rotate-loader 2s linear infinite;
+    border-top: 5px solid orange
+    
+}
+@keyframes rotate-loader {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.c1 { 
+    animation: loadcircles1 1.5s linear infinite;
+}
+.c2 { 
+    animation: loadcircles2 1.5s linear infinite;
+}
+.c3 { 
+    animation: loadcircles3 1.5s linear infinite;
+}
+
+@keyframes loadcircles1 {
+    0% {
+        background-color: orange  }
+    33% {
+        background-color: gray; 
+    }
+    66% {
+        background-color: gray; 
+    }
+    100% {
+        background-color: gray;
+    }
+}
+@keyframes loadcircles2 {
+    0% {
+        background-color: gray  }
+    33% {
+        background-color: orange; 
+    }
+    66% {
+        background-color: gray; 
+    }
+    100% {
+        background-color: gray;
+    }
+}
+@keyframes loadcircles3 {
+    0% {
+        background-color: gray  }
+    33% {
+        background-color: gray; 
+    }
+    66% {
+        background-color: orange; 
+    }
+    100% {
+        background-color: gray;
+    }
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.c4 { 
+    animation: loadcircles4 1.5s linear infinite;
+}
+.c5 { 
+    animation: loadcircles5 1.5s linear infinite;
+}
+.c6 { 
+    animation: loadcircles6 1.5s linear infinite;
+}
+
+@keyframes loadcircles4 {
+    0% {
+       transform: scale(0); }
+    25% {
+        transform: scale(1); }
+    
+   50% {
+        transform: scale(0); }
+    
+    75% {
+        transform: scale(0); }
+    100% {
+        transform: scale(0);
+    }
+    
+    }
+    @keyframes loadcircles5 {
+        0% {
+            transform: scale(0); }
+         25% {
+             transform: scale(0); }
+         
+        50% {
+             transform: scale(1); }
+         
+         75% {
+             transform: scale(0); }
+         100% {
+             transform: scale(0);
+         }
+        
+        }
+        @keyframes loadcircles6 {
+            0% {
+                transform: scale(0); }
+             25% {
+                 transform: scale(0); }
+             
+            50% {
+                 transform: scale(0); }
+             
+             75% {
+                 transform: scale(1); }
+             100% {
+                 transform: scale(0);
+             } 
+            }
