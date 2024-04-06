@@ -1,0 +1,38 @@
+.container {
+    display:grid;
+    width: 500px;
+    height: 400px;
+    grid-gap: 15px;
+    margin: 50px auto;
+    grid-column: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'tr tr tr tr'
+    'mrl mrl mrr mrr'
+    'mrl mrl brrl brrr';
+}
+
+.ge {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.tr {
+    background-color: red;
+    grid-area: tr;
+}
+.mrl {
+    background-color: blue;
+    grid-area: mrl;
+}
+.mrr {
+    background-color: green;
+    grid-area: mrr;
+}
+.brrl {
+    background-color: purple;
+    grid-area: brrl;
+}
+.brrr {
+    background-color: purple;
+    grid-area: brrr;
+}

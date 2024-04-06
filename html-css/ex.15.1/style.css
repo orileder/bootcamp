@@ -1,0 +1,45 @@
+.container {
+    margin: 50px auto;
+    display: grid;
+    width: 500px;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas: 
+    'upperleft upperleft upperright upperright'
+    'midleft midright midright midright'
+    'bot bot bot bot';
+}
+.upperleft {
+    grid-area: upperleft;
+}
+.upperright {
+    grid-area: upperright;
+}
+.midleft {
+    grid-area: midleft;
+}
+.midright {
+    grid-area: midright;
+}
+.bot {
+    grid-area: bot;
+}
+.ge {
+    height: 50px;
+    border-radius: 10px;
+}
+.bot {
+    background-color: yellow;
+}
+.upperleft {
+    background-color: red;
+}
+.upperright {
+    background-color: blue;
+}
+.midleft {
+    background-color: green;
+}
+.midright {
+    background-color: purple;
+}
