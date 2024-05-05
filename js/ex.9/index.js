@@ -56,3 +56,11 @@ if (budget>expenses) {
 if (expenses>budget) {
     console.log ('budget doesnt meet expenses')
 }
+const person1height = 170
+const person2height = 165 
+if (person1height>person2height) {
+    console.log ('person 1 is higher than person 2')
+}
+else {
+    console.log ('person 1 is not higher than person 2')
+}

@@ -68,7 +68,7 @@ else {
     console.log ('you cannot join the quest due to age restrictions')
  }
  const currentDate = new Date();
- const dayOfTheWeek = currentDate.getUTCDay()
+ const dayOfTheWeek = currentDate.getUTCDay() 
  if (dayOfTheWeek === 0 || dayOfTheWeek === 6) {
     console.log ('special event!')
  }
